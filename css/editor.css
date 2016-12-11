@@ -1,0 +1,22 @@
+
+#cp-article-embed .inside {
+
+}
+
+#cp-article-embed label {
+  user-select: none;
+}
+
+#cp-article-embed .cp-row {
+  margin: 1em 0;
+}
+
+#cp-article-embed .cp-editor {
+  display: none;
+}
+
+#cp-article-embed #cp-undo {
+  display: none;
+}
+
+
