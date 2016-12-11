@@ -8,7 +8,7 @@
 
 A plugin for the popular WordPress CMS that allows you to easily create embeds and stub posts for any Codex Press article.
 
-More information on WordPress integration is available in the Codex Press documentation site.
+More information on WordPress integration is available in the Codex Press [documentation site].
 
 [documentation site]: https://codex.press/docs/wordpress
 
