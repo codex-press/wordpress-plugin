@@ -10,11 +10,12 @@ Author URI: https://codex.press/
 License: MIT
 */
 
-
-// would be nice to send a 404 here but WP sure don't make it easy
+// exit if accessed directly. would be nice to send a 404 here but WP sure
+// don't make it easy
 if ( ! defined( 'ABSPATH' ) )
   exit;
 
+wp_oembed_add_provider( '/^https:\/\/codex.press\/(?!edit)[^.]*$/', 'http://localhost/oembed', true );
 
 // we overwrite the template for posts that have the cp_article_url meta
 // property set in the editor
