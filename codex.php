@@ -15,7 +15,7 @@ License: MIT
 if ( ! defined( 'ABSPATH' ) )
   exit;
 
-wp_oembed_add_provider( '/^https:\/\/codex.press\/(?!edit)[^.]*$/', 'http://localhost/oembed', true );
+wp_oembed_add_provider( 'https://codex.press/*', 'https://codex.press/oembed');
 
 // we overwrite the template for posts that have the cp_article_url meta
 // property set in the editor
